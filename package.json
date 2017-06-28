@@ -1,0 +1,32 @@
+{
+  "name": "Dc-web",
+  "productName": "Dc-web",
+  "version": "0.0.0",
+  "description": "my awesome react project",
+  "repository": {
+    "url": "zcong1993/Dc-web",
+    "type": "git"
+  },
+  "scripts": {
+    "dev": "poi --port 3000",
+    "test": "echo 'no test'",
+    "build": "poi build"
+  },
+  "author": "zcong1993 <1005997919@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-import": "^1.2.1",
+    "babel-plugin-react-require": "^3.0.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-react-app": "^3.0.0",
+    "poi": "^8.1.2",
+    "poi-preset-eslint-react": "^0.0.3",
+    "react-hot-loader": "next"
+  },
+  "dependencies": {
+    "antd": "^2.11.2",
+    "plyr": "^2.0.13",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
